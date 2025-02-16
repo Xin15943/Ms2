@@ -1,0 +1,26 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 120px; /* Ensures space below the navbar */
+    width: 100%;
+}
+
+/* Ensure the H1 title is visible */
+.home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Fix box alignment */
+.box-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px; /* Adds spacing from title */
+}
