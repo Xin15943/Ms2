@@ -1,40 +1,39 @@
-.customer-table-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .customer-table {
-    width: 90%;
-    border-collapse: collapse;
-    margin: auto;
-  }
-  
-  .customer-table th, .customer-table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-  }
-  
-  .customer-table th {
-    background-color: #007bff;
-    color: white;
-  }
-  
-  .customer-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .customer-table .no-results {
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .search-box {
-    padding: 10px;
-    font-size: 16px;
-    width: 300px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
+.search-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space out elements evenly */
+  width: 100%;
+  gap: 10px; /* Adjust space between elements */
+}
+
+.add-customer-btn,
+.delete-customer-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  white-space: nowrap; /* Prevents button text from breaking */
+}
+
+.add-customer-btn {
+  background-color: blue;
+  color: white;
+}
+
+.add-customer-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-customer-btn {
+  background-color: red;
+  color: white;
+}
+
+.delete-customer-btn:hover {
+  background-color: #c82333;
+}
+
+.search-box {
+  flex-grow: 1; /* Allows search box to adjust dynamically */
+  padding: 8px;
+}

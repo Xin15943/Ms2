@@ -1,0 +1,11 @@
+.customer-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .customer-table-container {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
